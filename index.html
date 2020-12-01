@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator by Goodness</title>
+</head>
+<body>
+   
+   
+        
+    <b style="color: limegreen; font-size: 30px; font-family: sans-serif; margin-top: 10px;">Password Generator By Goodness</b>
+    <button class="trigger">Generator</button>
+     <div class="modal">
+         <div class="modal-content">
+            <span class="close-button">&times;</span>
+    <div class="genBox">
+        <div class="head">
+        <h3>Password Generator<h3> 
+        </div>
+        <div class="input">
+        <input type="text" name="" id="Value"><button id="copy" onclick="copy()"><i class="fa fa-copy"></i></button></div>
+        <br>
+    <input type="range" onclick="count()" id="Pinput" value="8" max="30">
+
+    <p id="nUm-val">8</p>    
+    <b>Drag the button to set the length of your Password</b>
+    <button id="genBtn" onclick="Gen()">Generate</button>
+</div>
+
+        </div>
+    </div>
+<div class="so">
+    <span class="fa fa-facebook"></span>
+</div>
+<div class="soins">
+    <span class="fa fa-instagram"></span>
+</div>
+<div class="sotwi">
+    <span class="fa fa-twitter"></span>
+</div>
+
+</body>
+</html>
+<script src="script.js"></script>
+<script src="sweetalert.min.js"></script>
